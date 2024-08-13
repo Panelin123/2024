@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Honk&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +11,7 @@
 -cyano-escuro: #00b4d8ff;
 --cyano: #90e0efff;
 --cyano-claro: #caf0f8ff;
+--fonte-titulo: font-family: "Honk", system-ui;
+--fonte-texto: font-family: "Amiri Quran", serif;
 }
+
