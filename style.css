@@ -24,3 +24,7 @@ body{
 .titulo-principal{
     font-family: var(--fonte-titulo);
 }
+
+.texto{
+    font-family: var(--fonte-texto);
+}
