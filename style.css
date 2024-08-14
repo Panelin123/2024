@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: var(--azul-escuro);
+    background-color: var(--cyano);
     font-family: var(--fonte-texto);
     font-size: 16px;
 }
