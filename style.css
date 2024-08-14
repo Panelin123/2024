@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: var(--azul);
+    background-color: var(--azul-escuro);
     font-family: var(--fonte-texto);
     font-size: 16px;
 }
@@ -27,4 +27,19 @@ body{
 
 .texto{
     font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+    background-color: var(--azul-escuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.cabecalho-img{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
