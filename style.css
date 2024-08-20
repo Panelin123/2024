@@ -10,13 +10,13 @@
 --azul: #0077b6ff;
 --cyano-escuro: #00b4d8ff;
 --cyano: #90e0efff;
---cyano-claro: #caf0f8ff;
+--preto: rgb(0, 0, 0);
 --fonte-titulo: "Honk", system-ui;
 --fonte-texto: "Amiri Quran", serif;
 }
 
 body{
-    background-color: var(--cyano);
+    background-color: var(--preto);
     font-family: var(--fonte-texto);
     font-size: 16px;
 }
@@ -38,24 +38,30 @@ body{
 }
 
 .cabecalho-img{
-    width: 10%;
+    width: 13%;
     border-radius: 100%;
 }
 
-.cabecalho-nav_link{
+.cabecalho_nav_link{
     text-decoration: none;
-    font-family: var(--fonte-titulo);
-    font-size: 24%;
-    color: var(--cyano-claro);
+    font-family: var(--fonte-texto);
+    font-size: 200%;
+    color: var(--cyano);
     margin-right: 24px;
+}
+
+.cabecalho_nav_link:hover{
+    color: var(--cyano);
+    font-size: 200%;
+    transition: 0,5s;
+    text-shadow: 2px 2px var(--cyano);
 }
 
 .principal-capa{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
-    background-image: url(img/logosemfundo.png);
     background-repeat: no-repeat;
     margin-left: 12px;
     padding: 24px 12px;
@@ -70,11 +76,15 @@ body{
 .principal-capa_titulo{
     font-family: var(--texto-titulo);
     font-size: 32px;
-    color: var(--ciano-claro);
+    color: var(--azul);
     margin-bottom: 12px;
 }
 
 .principal-capa_texto{
     font-size:24px;
     margin-top: 24px;
+}
+
+.principal-capa_image{
+    border-radius: 0 5% 0 5%;
 }
