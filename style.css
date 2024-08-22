@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: var(--preto);
+    background-image: var(--preto);
     font-family: var(--fonte-texto);
     font-size: 16px;
 }
@@ -54,7 +54,7 @@ body{
     color: var(--cyano);
     font-size: 200%;
     transition: 0,5s;
-    text-shadow: 2px 2px var(--cyano);
+    text-shadow: 2px 2px var(--preto);
 }
 
 .principal-capa{
@@ -62,8 +62,7 @@ body{
     justify-content: space-around;
     align-items: center;
     gap: 24px;
-    background-repeat: no-repeat;
-    margin-left: 12px;
+    background-image: url(img/dungeon.jpg);
     padding: 24px 12px;
 }
 
