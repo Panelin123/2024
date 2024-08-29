@@ -63,7 +63,7 @@ body{
     align-items: center;
     gap: 24px;
     background-image: url(img/dungeon.jpg);
-    padding: 170px 30px;
+    padding: 115px 30px;
 }
 
 .principal-capa_conteudo{
@@ -104,9 +104,18 @@ body{
     text-decoration: none;
 }
 
+.principal-capa_botao:hover{
+    background-color: aliceblue;
+    color: var(--isabelline);
+    border-radius: 7px;
+}
+
+.principal-capa_botao:active{
+    background-color: var(--espaço);
+}
+
 .botao_secunario{
     background-color: transparent;
     border: 2px solid var(--isabelline);
     color: var(--azul)
-
 }
