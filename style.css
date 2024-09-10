@@ -11,14 +11,16 @@
 --cyano-escuro: #00b4d8ff;
 --cyano: #90e0efff;
 --preto: rgb(0, 0, 0);
+--branco: rgb(254, 249, 249);
 --fonte-titulo: "Honk", system-ui;
 --fonte-texto: "Amiri Quran", serif;
 }
 
 body{
-    background-image: var(--preto);
+    background-image: url(img/dungeon.jpg);
     font-family: var(--fonte-texto);
     font-size: 16px;
+    background-repeat:cover;
 }
 
 .titulo-principal{
@@ -118,4 +120,43 @@ body{
     background-color: transparent;
     border: 2px solid var(--isabelline);
     color: var(--azul)
+}
+
+.propaganda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7em
+}
+
+.propaganda_img{
+    width: 50%;
+}
+
+.propaganda_titulo{
+    color: var(--branco);
+    font-size: 45px;
+    font-family: var(--isabelline);
+}
+
+.propaganda_titulo_hover{
+    text-shadow: 4px, 4px, 20px, var(--azul-escuro);
+    transition: 0.7s;
+}
+.propaganda_texto{
+    font-size: 30px;
+    color: var(--cyano)
+}
+
+.propaganda_2{
+    display: flex;
+    flex-direction: column;
+}
+
+.propaganda_img_2{
+    width: 60%;
+    border-radius: 30px;
+    
 }
