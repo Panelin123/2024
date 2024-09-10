@@ -104,7 +104,7 @@ body{
     margin-top: 2em;
     color: var(--preto);
     text-decoration: none;
-}
+}Westeros
 
 .principal-capa_botao:hover{
     background-color: aliceblue;
@@ -158,5 +158,27 @@ body{
 .propaganda_img_2{
     width: 60%;
     border-radius: 30px;
-    
+    margin-left: 30%;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos_titulo{
+    font-family: var(--texto-titulo);
+    color: var(--branco);
+    font-size: 42px;
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista_item{
+    font-size: 24px;
+    color: var(--azul);
 }
